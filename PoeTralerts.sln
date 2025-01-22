@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeTralerts.Domain", "src\PoeTralerts.Domain\PoeTralerts.Domain.csproj", "{FAC5572E-36E5-4331-B3A8-E40F07803000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeTralerts.Application", "src\PoeTralerts.Application\PoeTralerts.Application.csproj", "{3FE26431-389F-4E5F-96AF-8E112277D242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeTralerts.Infrastructure", "src\PoeTralerts.Infrastructure\PoeTralerts.Infrastructure.csproj", "{B6C85344-C81E-413D-9192-1566D23AA6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeTralerts.Test", "tests\PoeTralerts.Test\PoeTralerts.Test.csproj", "{59A5CECD-3FBB-4DF0-8537-01DD09F7C1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC5572E-36E5-4331-B3A8-E40F07803000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC5572E-36E5-4331-B3A8-E40F07803000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC5572E-36E5-4331-B3A8-E40F07803000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC5572E-36E5-4331-B3A8-E40F07803000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE26431-389F-4E5F-96AF-8E112277D242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE26431-389F-4E5F-96AF-8E112277D242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE26431-389F-4E5F-96AF-8E112277D242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE26431-389F-4E5F-96AF-8E112277D242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C85344-C81E-413D-9192-1566D23AA6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C85344-C81E-413D-9192-1566D23AA6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C85344-C81E-413D-9192-1566D23AA6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C85344-C81E-413D-9192-1566D23AA6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A5CECD-3FBB-4DF0-8537-01DD09F7C1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A5CECD-3FBB-4DF0-8537-01DD09F7C1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A5CECD-3FBB-4DF0-8537-01DD09F7C1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A5CECD-3FBB-4DF0-8537-01DD09F7C1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07CE2CFD-E025-4FCE-9668-122500FEA570}
+	EndGlobalSection
+EndGlobal
